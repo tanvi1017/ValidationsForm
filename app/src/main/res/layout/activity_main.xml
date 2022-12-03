@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/firstName"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:inputType="text"
+       android:hint="firstName"
+       android:layout_margin="30dp">
+   </EditText>
+    <EditText
+        android:id="@+id/LastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="LastName"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+      >
+    </EditText>
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Email">
+    </EditText>
+    <EditText
+        android:id="@+id/Password"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:inputType="textPassword"
+        android:layout_marginRight="30dp">
+    </EditText>
+<LinearLayout
+    android:gravity="end"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+
+        android:backgroundTint="#0D1759"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:text="Cancel"
+        android:layout_marginEnd="4dp"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:backgroundTint="#050E47"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnProceed"
+        android:layout_width="wrap_content"
+        android:text="Proceed"
+        tools:ignore="ButtonStyle"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>
+
+
+</LinearLayout>
